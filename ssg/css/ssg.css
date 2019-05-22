@@ -1,0 +1,46 @@
+.gnb{
+  width: 130px;
+  height: 100%;
+  position: fixed;
+  float: left;
+}
+
+.content-first{
+  float: right;
+  display: block;
+  width: 1772px;
+  height: 974px;
+  background: url("../image/bg_intro2.jpg") no-repeat 0 0;
+}
+
+.contents{
+  width: 1790px;
+  height: 974px;
+  float: right;
+}
+
+.content-first{
+  position: relative;
+}
+
+.con-f-store{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.con-f-text{
+  width: 464px;
+  height: 228px;
+  text-align: center;
+  line-height: 228px;
+  margin: 0 auto;
+}
+
+.con-f-text p{
+  color: #fff;
+}
+
+.con-f-text span{
+  color: #f64e2a;
+}

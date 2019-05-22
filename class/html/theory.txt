@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+
+http://www.w3schools.com/
+
+http://caniuse.com/
+
+http://validator.kldp.org/
+
+http://dbcut.com
+-------------------------------------------------------------------------------
+
+HTML Links - The target Attribute : 새창 열리기
+
+_blank : 새창
+_self  : 현재창(기본값)
+
+_parent,_top,framename : 잘안씀
+
+ -------------------------------------------------------------------------------
+
+ HTML Links - Create a Bookmark
+
+ 브라우저 상단에 북마크한 부분이 제일 위로(같은 창 내에서의 이동)
+
+ <p><a href="#C4">Jump to Chapter 4</a></p>
+
+ <h2>Chapter 1</h2>
+ <p>This chapter explains ba bla bla</p>
+
+ <h2>Chapter 2</h2>
+ <p>This chapter explains ba bla bla</p>
+
+ <h2>Chapter 3</h2>
+ <p>This chapter explains ba bla bla</p>
+
+ <h2 id="C4">Chapter 4</h2>
+ <p>This chapter explains ba bla bla</p>
+
+  -------------------------------------------------------------------------------

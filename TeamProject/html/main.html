@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/reset.css">
+  <script src="../js/jquery-3.1.1.js"></script>
+  <script>
+
+    $(function(){
+
+      $('.travel-start').on('click', function(){
+        $('.mario').toggleClass('mario-arrival');
+      });
+
+      $('.mario').on('click',function(){
+        $('.mario').addClass('move')
+      });
+
+    });
+
+  </script>
+</head>
+<body>
+
+  <header>
+
+    <div class="header-wrap">
+
+      <div>
+
+        <a href="#" class="logo">요기조기</a>
+
+      </div>
+
+      <ul class="gnb">
+
+        <li class="gnb-item"><a href="#" class="gnb-item-link-1 link">소개</a></li>
+        <li class="gnb-item"><a href="#" class="gnb-item-link-2 link">여행탐방기</a></li>
+        <li class="gnb-item"><a href="#" class="gnb-item-link-3 link">여행지정보</a></li>
+        <li class="gnb-item"><a href="#" class="gnb-item-link-4 link">여행후기</a></li>
+        <li class="gnb-item"><a href="#" class="gnb-item-link-5 link">갤러리</a></li>
+
+      </ul>
+
+    </div>
+
+  </header>
+
+  <section class="main-wrap">
+
+    <div class="main-inner">
+
+      <span class="cloud1">구름</span>
+      <span class="cloud2">구름</span>
+      <span class="cloud3">구름</span>
+      <span class="cloud4">구름</span>
+
+      <div class="top-mush">
+        <img src="../images/green-mushroom.png">
+      </div>
+
+      <div class="bottom-mush">
+        <img src="../images/devil-mushroom.png" class="devil">
+        <img src="../images/green-mountain.png" class="mt">
+      </div>
+
+      <span class="coins">
+        <img src="../images/coin.png" class="coin1">
+        <img src="../images/coin.png" class="coin2">
+        <img src="../images/coin.png" class="coin3">
+      </span>
+
+      <div class="mario">
+        <a href="#"><img src="../images/mario.gif" class="mario-img" alt="마리오"></a>
+        <a href="#"><img src="../images/mario.gif" class="mario-img2" alt="마리오"></a>
+      </div>
+
+      <div class="travel-start">
+        <a href="#"><img src="../images/show.png" class="travel-start-text" alt="여행영상보기"></a>
+      </div>
+
+      <div class="travel-end">
+        <a href="#"><img src="../images/arrival.png" class="travel-end-text" alt="부여도착"></a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer></footer>
+
+</body>
+</html>

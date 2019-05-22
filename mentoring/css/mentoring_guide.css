@@ -1,0 +1,38 @@
+.header{
+  width: 1263px;
+  margin: 0 auto;
+  padding-top: 28px;
+}
+
+.header h1{
+  float: left;
+}
+
+.header .spot{
+  float: right;
+}
+
+.header .spot a{
+  font-size: 8px; color: #666;
+}
+
+.header .span{
+  padding: 0 10px;
+}
+
+.header .spot div{
+  display: inline-block;
+  border: 2px solid #bd0000;
+}
+
+.header .spot div input{
+  width: 276px;
+  height: 36px;
+  border: none;
+}
+
+.header.lnb{
+  clear: both;
+}
+
+

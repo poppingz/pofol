@@ -1,0 +1,264 @@
+
+@font-face {
+  font-family: 'game';
+  src: url('../font/videogame.eot?#iefix')format('embedded-opentype'),
+  url('../font/videogame.woff')format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  background: url("../images/tj_back.jpg")no-repeat 0 0;
+  font-family: 'game','sans-serif';
+}
+
+.logo{
+  position: absolute;
+  top: 39px;
+  left: 105px;
+  width: 211px;
+  height: 117px;
+  text-indent: -99999em;
+  background: url("../images/logo.png") no-repeat 0 0;
+  /*z-index: 1;*/
+}
+
+.gnb{
+  position: absolute;
+  top: 40px;
+  left: 387px;
+  width: 1240px;
+  height: 114px;
+  background: url("../images/gnb.png")no-repeat 0 0;
+  /*z-index: 1;*/
+  text-align: center;
+  line-height: 114px;
+}
+
+.gnb-item{
+  float: left;
+  font-size: 50px;
+}
+
+.link{
+  text-shadow: 0 0 0 #000;
+  transition: all 0.5s;
+}
+
+.link:hover{
+  text-shadow: 1px 1px 0 #565656, 2px 2px 0 #565656, 3px 3px 0 #565656;
+}
+
+.gnb-item-link-1{
+  display: block;
+  width: 200px;
+  height: 114px;
+}
+
+.gnb-item-link-2{
+  display: block;
+  width: 282px;
+  height: 114px;
+}
+
+.gnb-item-link-3{
+  display: block;
+  width: 272px;
+  height: 114px;
+}
+
+.gnb-item-link-4{
+  display: block;
+  width: 238px;
+  height: 114px;
+}
+
+.gnb-item-link-5{
+  display: block;
+  width: 238px;
+  height: 114px;
+}
+
+.tj-wrap{
+  /*display: none;*/
+  background: url("../images/tj_back_trans.png")no-repeat 0 0;
+}
+
+.tab{
+  position: absolute;
+  top: 322px;
+  left: 88px;
+  font-size: 26px;
+  z-index: 1;
+}
+
+.tab-menu{
+  background: url("../images/tab.png")no-repeat 0 0;
+  width: 194px;
+  height: 450px;
+  text-indent: -99999em;
+}
+
+.tab-item-2{
+  position: relative;
+  top: 43px;
+}
+
+.tab-item-3{
+  position: relative;
+  top: 86px;
+}
+
+.tab-item-4{
+  position: relative;
+  top: 129px;
+}
+
+.tab-item-5{
+  position: relative;
+  top: 172px;
+}
+
+
+.tab-link-1{
+  display: block;
+  width: 139px;
+  height: 56px;
+}
+
+.tab-link-2{
+  display: block;
+  width: 165px;
+  height: 56px;
+}
+
+.tab-link-3{
+  display: block;
+  width: 193px;
+  height: 55px;
+}
+
+.tab-link-4{
+  display: block;
+  width: 164px;
+  height: 55px;
+}
+
+.tab-link-5{
+  display: block;
+  width: 142px;
+  height: 56px;
+}
+
+.tj-wrap{
+  position: relative;
+  height: 974px;
+}
+
+.tab-click{
+  width: 1357px;
+  height: 974px;
+  margin: 0 auto;
+  background: #000000;
+  z-index: 1;
+  text-indent: -99999em;
+}
+
+.tab-click-goong{
+  display: block;
+}
+
+.tab-click-jung{
+  display: none;
+}
+
+.tab-click-bymuseum{
+  display: none;
+}
+
+.tab-click-bsss{
+  display: none;
+}
+
+.tab-click-nakhwa{
+  display: none;
+}
+
+.tab-click-item-wrap{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.tab-img{
+  display: block;
+  z-index: 1;
+  width: 1357px;
+  height: 556px;
+}
+
+.tab-click-goong-1{
+  display: block;
+}
+
+.tab-click-goong-2{
+  display: none;
+}
+
+.tab-click-goong-3{
+  display: none;
+}
+
+.tab-click-goong-4{
+  display: none;
+}
+
+.tab-click-goong-5{
+  display: none;
+}
+
+.prev{
+  background: url("../images/arrow.png")no-repeat 0 0;
+  position: absolute;
+  top: 511px;
+  left: 300px;
+  width: 45px;
+  height: 45px;
+}
+
+.next{
+  background: url("../images/arrow.png")no-repeat 0 0;
+  position: absolute;
+  top: 511px;
+  right: 300px;
+  width: 46px;
+  height: 45px;
+}
+
+.next{
+  background-position: -1277px 0;
+}
+
+/*.next{*/
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*right: 0;*/
+  /*z-index: 1;*/
+  /*background-position: 0 0;*/
+/*}*/
+
+.arrow-link{
+  display: block;
+  width: 45px;
+  height: 45px;
+}
+
+.tj-text{
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -518px;
+  bottom: 0;
+  width: 1035px;
+  height: 439px;
+}

@@ -1,0 +1,60 @@
+.wrap{
+  width: 800px;
+  height: 1600px;
+}
+
+.header{
+  height: 100px;
+  background: red;
+}
+
+.container:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.top{
+  height: 100px;
+  background: wheat;
+}
+
+.left{
+  float: left;
+}
+
+.section1{
+  height: 250px;
+  width: 400px;
+  background: black;
+}
+
+.section2{
+  height: 250px;
+  width: 400px;
+  background: yellow;
+}
+
+.right{
+  float: right;
+}
+
+.section3{
+  height: 250px;
+  width: 400px;
+  background: green;
+}
+
+.section4{
+  height: 250px;
+  width: 400px;
+  background: blue;
+}
+
+.footer{
+  height: 100px;
+  background: red;
+  clear: both;
+}
+
+
